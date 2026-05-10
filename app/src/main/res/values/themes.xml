@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Lab3" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">#EAF0F7</item>
+        <item name="android:textColorPrimary">#111827</item>
+        <item name="android:textColorSecondary">#374151</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

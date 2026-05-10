@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="18dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Фрагмент введення даних"
+        android:textColor="#111827"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Після натискання OK результат буде записано у файл"
+        android:textColor="#374151"
+        android:textSize="14sp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Автор книги"
+        android:textColor="#111827"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/authorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#EEF2F7"
+        android:layout_marginBottom="22dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рік видання"
+        android:textColor="#111827"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/yearRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/year2018"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="2018"
+            android:textColor="#111827"
+            android:textSize="16sp"
+            android:buttonTint="#2E86C1" />
+
+        <RadioButton
+            android:id="@+id/year2021"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="2021"
+            android:textColor="#111827"
+            android:textSize="16sp"
+            android:buttonTint="#2E86C1" />
+
+        <RadioButton
+            android:id="@+id/year2024"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="2024"
+            android:textColor="#111827"
+            android:textSize="16sp"
+            android:buttonTint="#2E86C1" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="OK"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2E86C1"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Відкрити сховище"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#117A65" />
+
+</LinearLayout>
